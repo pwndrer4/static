@@ -6,4 +6,4 @@ pygments:     true
 permalink:    pretty
 
 # Server
-url:          https://cdnjs.w4ze.cn/
+url:          http://staticfile.org

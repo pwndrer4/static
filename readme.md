@@ -1,19 +1,19 @@
-### STATICFILE.ORG
+### Staticfile 网站文件
 
-我们的目标是提供这样一个仓库，让它尽可能全面收录优秀的开源库，并免费为之提供 CDN 加速服务，使之有更好的访问速度和稳定的环境。同时，我们也提供开源库源接入的入口，让所有人都可以提交开源库，包括 JS、CSS、image 和 swf 等静态文件。 
+如果你觉得网站的体验可以更好，那么你可以通过给这个 repo 添加代码来改进她。文件结构：
 
-简介&帮助：https://www.staticfile.org/about.html
-
-[![Throughput Graph](https://graphs.waffle.io/staticfile/static/throughput.svg)](https://waffle.io/staticfile/static/metrics/throughput)
-
-
-### 目录结构
-
-```
+```bash
 .
-├── build
-├── libs                   .. 国内开源库
-├── license.txt
-├── package.json
-├── readme.md
+├── CNAME
+├── _config.yml
+├── about.html                          # 简介 http://staticfile.org/about.html
+├── about_en.html                       # 英文版简介 http://staticfile.org/about_en.html
+├── favicon.ico
+├── index.html                          # 首页 http://staticfile.org/
+├── index_en.html                       # 英文版首页 http://staticfile.org/index_en.html
+└── static
+    ├── app.css                         # 所有页面的样式
+    ├── app.js                          # 所有页面用到的 js 效果，我们使用 angular.js
+    ├── logos
+    └── qiniu.png
 ```
